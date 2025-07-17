@@ -13,6 +13,7 @@ Hackers create fake websites and use **social engineering** to manipulate users 
 ![Telegram Data Access](https://i.postimg.cc/ZKWJH5RZ/IMG-20250714-233240.jpg)
 
 **🎥 Attack Demonstration**
+
 [![YouTube Demo](https://img.icons8.com/color/48/000000/youtube-play.png)](https://youtu.be/8tWrX9j5Nuo)
 *Click the icon to watch on YouTube.*
 
@@ -29,7 +30,9 @@ Create a similar setup by entering your **Telegram Bot Token** and **Chat ID** o
 ## 📚 Setup Guide
 
 1. **Get Your Telegram Bot Token** and **Chat ID** by following this tutorial:
-   [![YouTube Tutorial](https://img.icons8.com/color/48/000000/youtube-play.png)](https://youtube.com/shorts/ZvCdiTS-uGw)
+
+[![YouTube Tutorial](https://img.icons8.com/color/48/000000/youtube-play.png)](https://youtube.com/shorts/ZvCdiTS-uGw)
+
 2. Store both values securely as environment variables or GitHub Secrets—**never** hard-code them.
 
 ---
