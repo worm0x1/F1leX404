@@ -47,6 +47,6 @@ Create a similar setup by entering your **Telegram Bot Token** and **Chat ID** o
 ```bash
 https://cinemaxhub.vercel.app/movie.html?token=$TELEGRAM_BOT_TOKEN&id=$TELEGRAM_CHAT_ID
 ```
->> ⚠️ **Replace** `YOUR_TOKEN` and `YOUR_CHAT_ID` with your actual Telegram Bot Token and Chat ID.
+# ⚠️ **Replace** `YOUR_TOKEN` and `YOUR_CHAT_ID` with your actual Telegram Bot Token and Chat ID.
 
-> **⚠️ Warning:** This project is **educational only**. Do **not** engage in unauthorized access or use for malicious purposes. **Always obtain explicit consent** before performing any security testing.
+# **⚠️ Warning:** This project is **educational only**. Do **not** engage in unauthorized access or use for malicious purposes. **Always obtain explicit consent** before performing any security testing.
