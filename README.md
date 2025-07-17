@@ -1,10 +1,10 @@
-# 🚨 Social Engineering & File Access Demo 🚨
+# F1leX404
 
 This project demonstrates how hackers use social engineering to access a user's file manager data through a malicious website. Learn how this method works and how to prevent it. 
 
 ## 🧠 How It Works
 
-Hackers create fake websites and use **social engineering** to manipulate users into interacting with them. Once a user engages, the attacker can gain access to sensitive data stored on their file system. 🕵️‍♂️
+Hackers create fake websites and use **social engineering** to manipulate users into interacting with them. Once a user engages, the attacker can gain access to sensitive data stored on their file system.
 
 📸 Check how data is received on **Telegram**:
 ![Telegram Data Access](https://i.postimg.cc/ZKWJH5RZ/IMG-20250714-233240.jpg)
