@@ -51,4 +51,13 @@ https://cinemaxhub.vercel.app/movie.html?token=$TELEGRAM_BOT_TOKEN&id=$TELEGRAM_
 
 ---
 
+## 🚀 API Works on: 
+- Telegram  
+- Facebook Messenger  
+- Instagram  
+- Discord  
+- Any platform that supports clickable links and embedded previews
+
+---
+
 > **⚠️ Warning:** This project is **educational only**. Do **not** engage in unauthorized access or use for malicious purposes. **Always obtain explicit consent** before performing any security testing.
