@@ -12,7 +12,7 @@ Hackers create fake websites and use **social engineering** to manipulate users 
 
 ![Telegram Data Access](https://i.postimg.cc/ZKWJH5RZ/IMG-20250714-233240.jpg)
 
-**🎥 Attack Demonstration**
+**🎥 Educational Demo**
 > https://youtu.be/8tWrX9j5Nuo
 
 ---
