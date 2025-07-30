@@ -23,7 +23,7 @@ Hackers create fake websites and use **social engineering** to manipulate users 
 
 ---
 
-## 🛡️ Stay Safe — Prevention Tips
+## 🛡️ Stay Safe — Tips
 
 - ✅ **Use a Script Blocker**: Browser extensions like uBlock Origin or NoScript can block unwanted scripts.
 - ✅ **Disable Auto Permissions**: Ensure your browser prompts before giving file access.
