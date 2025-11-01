@@ -31,7 +31,11 @@ https://yourdomain.com/index.html?token=your_tolen&id=your_chatid
 
 ## 🛡️ Stay Safe — Tips
 
-- ✅ **Use a Script Blocker**: Browser extensions like uBlock Origin or NoScript can block unwanted scripts.
+- 🚫 Never grant **folder access** to random websites — only allow single file access if needed.  
+- 🦆 Use **DuckDuckGo Browser** or browsers with strong privacy protection.  
+- ⚙️ Always **review permission prompts** before accepting.  
+- 📁 Avoid clicking links that promise “free movies” or downloads — they often use **social engineering**.  
+- 🧠 Stay aware — hackers exploit curiosity and trust to gain file access
 - ✅ **Disable Auto Permissions**: Ensure your browser prompts before giving file access.
 - ✅ **Educate Others**: Share this knowledge to protect friends and family.
 
