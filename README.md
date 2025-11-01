@@ -12,6 +12,12 @@ Hackers create fake websites and use **social engineering** to manipulate users 
 
 ![Telegram Data Access](https://i.postimg.cc/ZKWJH5RZ/IMG-20250714-233240.jpg)
 
+**✅ Public code API example**
+
+```bash
+https://yourdomain.com/index.html?token=$TELEGRAM_BOT_TOKEN&id=$TELEGRAM_CHAT_ID
+```
+
 **🎥 Educational Demo**
 > https://youtu.be/8tWrX9j5Nuo
 
