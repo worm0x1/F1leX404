@@ -1,0 +1,178 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      padding: 45px 35px;
+      width: 100%;
+      max-width: 460px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(12px);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .container:hover {
+      transform: translateY(-2px);
+    }
+
+    h2 {
+      color: #00e676;
+      margin-bottom: 12px;
+      font-size: 32px;
+      font-weight: 700;
+      text-shadow: 0 2px 10px rgba(0, 230, 118, 0.3);
+    }
+
+    .subtitle {
+      color: #b0bec5;
+      font-size: 15px;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+
+    .error-message {
+      background: rgba(255, 107, 107, 0.2);
+      border: 1px solid rgba(255, 107, 107, 0.4);
+      color: #ff6b6b;
+      padding: 15px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .error-message strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+
+    #folderStatus {
+      color: #00e676;
+      font-size: 14px;
+      margin: -15px 0 25px;
+      font-weight: 500;
+      min-height: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      width: 100%;
+      padding: 16px;
+      margin-bottom: 15px;
+      background: linear-gradient(135deg, #00e676, #00c853);
+      color: #000;
+      font-weight: 600;
+      font-size: 16px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0, 230, 118, 0.3);
+    }
+
+    .button:hover:not(:disabled) {
+      background: linear-gradient(135deg, #00c853, #00b248);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 230, 118, 0.4);
+    }
+
+    .button:active:not(:disabled) {
+      transform: translateY(0);
+    }
+
+    .button:disabled {
+      background: #555;
+      cursor: not-allowed;
+      box-shadow: none;
+      opacity: 0.6;
+    }
+
+    #progressContainer {
+      margin-top: 25px;
+      text-align: left;
+      display: none;
+    }
+
+    .progress-label {
+      font-size: 13px;
+      color: #90a4ae;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    .progress-bar {
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      height: 24px;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .progress-bar-fill {
+      background: linear-gradient(90deg, #00e676, #00ffa3);
+      height: 100%;
+      width: 0%;
+      transition: width 0.4s ease-out;
+      box-shadow: 0 0 10px rgba(0, 230, 118, 0.5);
+    }
+
+    #progressText {
+      margin-top: 12px;
+      font-size: 14px;
+      color: #eceff1;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    #fileInput {
+      display: none;
+    }
+
+    .file-count {
+      display: inline-block;
+      background: rgba(0, 230, 118, 0.2);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      color: #00e676;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .uploading {
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 35px 25px;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+    }

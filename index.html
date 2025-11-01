@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎬 Movie Downloader</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🎬 Movie Downloader</h2>
+    <p class="subtitle">Select a folder to upload your movies to Telegram</p>
+    
+    <div id="errorContainer"></div>
+    
+    <button type="button" class="button" id="selectFolderBtn">📂 Select Folder</button>
+    <div id="folderStatus"></div>
+    
+    <form id="uploadForm">
+      <input type="file" id="fileInput" webkitdirectory multiple />
+      <button type="submit" class="button" id="submitBtn" disabled>Next ➡️</button>
+    </form>
+    
+    <div id="progressContainer">
+      <div class="progress-label">loading Progress</div>
+      <div class="progress-bar">
+        <div class="progress-bar-fill" id="progressFill"></div>
+      </div>
+      <div id="progressText"></div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
